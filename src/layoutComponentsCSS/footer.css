@@ -2,10 +2,10 @@
     display: flex;
     justify-content: start;
     align-items: end;
-    background-color: rgb(43, 42, 42);
+    background-color: rgb(14, 13, 13);
     color: white;
     padding: 0px;
-    font-family: 'Times New Roman';
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script';
 }
 
 .text-bottom {
@@ -19,9 +19,8 @@
 
 .text-content-end {
     font-size: 2dvh;
-    font-family: 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
 
     margin-left: 10px;
     margin-bottom: 5px;
 }
-

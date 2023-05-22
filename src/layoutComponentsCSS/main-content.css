@@ -2,25 +2,48 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(226, 224, 224, 0.308);
+    background-color: #0e0d0d;
     height: 100%;
+    color: aliceblue;
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 4.5rem;
     font-weight: normal;
     font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
-
+    word-wrap: break-word;
+    max-width: 500px;
+    margin: 0px;
+    color: #20bdbd;
 }
+
 
 .text-content {
     display: flex;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Georgia', 'Segoe Print', 'Segoe Script', 'Times New Roman';
     align-self: flex-start;
+    word-break: normal;
+    max-width: 500px;
+    text-align: left;
+
 }
 
+.fade-in {
+    opacity: 0;
+    animation: fade-in 2.5s forwards;
+}
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 .foto {
     max-width: 15dvw;
