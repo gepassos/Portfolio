@@ -1,0 +1,36 @@
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(226, 224, 224, 0.308);
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+
+}
+
+.text-content {
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Georgia', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    align-self: flex-start;
+}
+
+
+
+.foto {
+    max-width: 15dvw;
+    max-height: 35dvh;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

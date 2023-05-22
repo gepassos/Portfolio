@@ -1,0 +1,58 @@
+.sobre-component {
+    margin-bottom: 0px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.sobre-componentt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100dvw;
+    gap: 20px;
+
+}
+
+.sobre-content {
+    height: 25vh;
+    width: 40dvw;
+    border: 3px dashed #ccc;
+    box-sizing: border-box;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+@media all and (max-height:700px) {
+    .sobre-content {
+        width: 70dvw;
+        height: 50vh;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+
+    .sobre-content {
+        width: 70dvw;
+        height: 40vh;
+    }
+
+
+}

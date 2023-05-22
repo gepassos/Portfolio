@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 0px;
+    font-family: 'Times New Roman';
+}
+
+.text-bottom {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    align-self: end;
+
+
+}
+
+.text-content-end {
+    font-size: 2dvh;
+    font-family: 'Segoe Print', 'Segoe Script', 'Times New Roman';
+
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+

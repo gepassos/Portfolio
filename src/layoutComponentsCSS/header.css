@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(241, 235, 235);
+    margin: 10px;
+
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: rgb(107, 23, 23);
+    text-decoration: underline;
+}
+
+.imagem {
+    display: flex;
+    margin-left: 25px;
+    width: 2rem;
+    height: 2rem;
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.mensagem-header {
+
+    color: white;
+    font-family: 'Georgia', ' Segoe Print', ' Segoe Script', ' Times New Roman';
+    font-size: 1.5rem;
+    flex-grow: 0.75;
+}
+
+.home {
+    display: flex;
+    max-width: 40px;
+    max-height: 40px;
+    font-size: 1rem;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.servicos {
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.portfolio {
+    font-size: 1rem;
+    padding-right: 20px;
+
+}
+
+@media all and (max-height:700px) {
+    .imagem {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .mensagem-header {
+        font-size: 1rem;
+        flex-grow: 0.75;
+
+    }
+
+    .home {
+        font-size: 0.8rem;
+    }
+
+    .servicos {
+        font-size: 0.8rem;
+    }
+
+    .portfolio {
+        font-size: 0.8rem;
+    }
+
+}

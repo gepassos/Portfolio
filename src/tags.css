@@ -1,0 +1,19 @@
+p,
+h3 {
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-family: 'Comic Sans', 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    font-size: 1rem;
+}
