@@ -18,7 +18,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio className="portfolio" />} />
           <Route path="/servicos" element={<Servicos className="sobre-component" />} />
         </Routes>
-        <SubContent className="another-content"></SubContent>
+
         <Footer className="footer" />
       </div>
     </HashRouter>

@@ -1,15 +1,20 @@
 .sobre-component {
-    margin-bottom: 0px;
-    overflow: auto;
-    overflow-x: hidden;
-}
-
-.sobre-componentt {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    overflow: hidden;
+    margin-bottom: 0px;
+    background-color: #0e0d0d;
+    overflow: auto;
+    overflow-x: hidden;
+    color: aliceblue;
+}
+
+
+.titulo-sobre {
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -30,10 +35,10 @@
     overflow: auto;
     overflow-x: hidden;
     padding: 20px;
-    font-family: sans-serif;
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
     font-size: 1.2rem;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #0e0d0d;
+    color: #ffffff;
     border-radius: 10px;
     margin-bottom: 15px;
 }

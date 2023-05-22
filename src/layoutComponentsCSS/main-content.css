@@ -5,7 +5,8 @@
     background-color: #0e0d0d;
     height: 100%;
     color: aliceblue;
-    overflow: hidden;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 h1 {

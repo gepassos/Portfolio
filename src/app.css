@@ -11,7 +11,7 @@ html {
 .container {
     display: grid;
     height: 100dvh;
-    grid-template-rows: 5% 85% 5%;
+    grid-template-rows: 5% 90% 5%;
     grid-template-columns: 1fr;
     margin-top: 0;
     padding-top: 0;

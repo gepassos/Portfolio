@@ -4,9 +4,9 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-    background-color: rgb(34, 33, 33);
+    background-color: darkslategrey;
     overflow: hidden;
-    box-shadow: 1px 10px 1px #20bdbd;
+    box-shadow: 1px 2px 1px #20bdbd;
 }
 
 .header a {
