@@ -1,0 +1,35 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #0e0d0d;
+    color: aliceblue;
+    overflow: auto;
+}
+
+.titulo-portfolio {
+    font-family: 'Georgia', 'Franklin Gothic', 'Segoe Print', 'Segoe Script', 'Times New Roman';
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+
+.container-imagem-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.imagem-projeto {
+
+
+    width: 75vw;
+    background-color: blue;
+}
+
+.descricao-projeto {
+    width: 65vw;
+}

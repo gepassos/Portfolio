@@ -4,35 +4,17 @@ html {
     padding: 0;
 
 
+
 }
 
 
 
 .container {
     display: grid;
-    height: 100dvh;
+    height: 100vh;
     grid-template-rows: 5% 90% 5%;
     grid-template-columns: 1fr;
     margin-top: 0;
     padding-top: 0;
 
-}
-
-
-.fade-enter {
-    opacity: 0;
-}
-
-.fade-enter-active {
-    opacity: 1;
-    transition: opacity 500ms;
-}
-
-.fade-exit {
-    opacity: 1;
-}
-
-.fade-exit-active {
-    opacity: 0;
-    transition: opacity 500ms;
 }

@@ -20,7 +20,7 @@
 
 .sobre-content {
     max-height: 50vh;
-    width: 25dvw;
+    width: 30dvw;
     border: 2px dashed #20bdbd;
     box-sizing: border-box;
     overflow: auto;
@@ -60,7 +60,7 @@ a img {
 @media all and (max-height:700px) {
     .sobre-content {
         width: 60dvw;
-        height: 50vh;
+        min-height: 65%;
     }
 
 }
