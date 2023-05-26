@@ -20,15 +20,14 @@ h1 {
 }
 
 .container-subcontent {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 0px;
-    margin-right: 30px;
     align-items: flex-start;
     width: 100%;
     max-width: 450px;
+    align-self: flex-start;
+    margin-left: 5px;
 }
 
 #stacks {
@@ -43,7 +42,7 @@ h1 {
     font-family: 'Georgia', 'Segoe Print', 'Segoe Script', 'Times New Roman';
     align-self: flex-start;
     word-break: normal;
-    max-width: 500px;
+    width: 35vw;
     text-align: left;
 
 }
@@ -64,8 +63,8 @@ h1 {
 }
 
 .foto {
-    max-width: 15dvw;
-    max-height: 35dvh;
+    max-width: 35dvw;
+    max-height: 55dvh;
 }
 
 
@@ -76,14 +75,25 @@ h1 {
     align-items: center;
 }
 
+.titulo-main {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 
-@media all and (max-height:700px) {
+
+}
+
+@media all and (max-height:440px) {
     span {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .titulo-main {
+        margin-left: 10px;
     }
 
     .text-content {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .flex-column {
@@ -91,8 +101,7 @@ h1 {
     }
 
     #stacks {
-        margin-left: 25px;
-        width: 25px;
+        width: 35px;
     }
 
 

@@ -7,6 +7,7 @@ const Portfolio = ({ className }) => {
 
             <h2 className='titulo-portfolio'>Meus projetos</h2>
             <div className='container-imagem-desc'>
+                <h2 className='allign-center'>ChatCrypto</h2>
                 <img className='imagem-projeto' src="./chatcrypto.PNG" alt='imagem de um projeto de chat' >
 
                 </img>

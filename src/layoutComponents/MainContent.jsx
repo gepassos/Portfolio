@@ -6,10 +6,13 @@ const MainContent = ({ className }) => {
         <main className={className}>
 
             <div className='flex-column'>
-                <h1 class="fade-in">
-                    <span>Hello,this is Gustavo Passos</span>
+                <h1 class="fade-in titulo-main">
+                    <span>Hello, i'm </span>
+                    <span>Gustavo Passos</span>
                 </h1>
-                <p className='text-content'>Desenvolvedor web especializado em Node.js e React, apaixonado por criar soluções inovadoras e eficientes. Com experiência sólida na construção de aplicações escaláveis e interativas, estou constantemente buscando aprimorar minhas habilidades e acompanhar as tendências mais recentes do desenvolvimento web.</p>
+                <p className='text-content'> Sou formado em Ciência da Computação e desenvolvedor web especializado em JS, Node e React, apaixonado
+                    por criar soluções inovadoras e eficientes. Com experiência na construção de aplicações escaláveis e interativas, estou constantemente buscando
+                    aprimorar minhas habilidades e acompanhar as tendências mais recentes do desenvolvimento web.</p>
                 <div className='container-subcontent'>
                     <img id='stacks' src='./logo192.png'></img>
                     <img id='stacks' src='./js.png'></img>
@@ -20,7 +23,7 @@ const MainContent = ({ className }) => {
 
             </div>
 
-            <img className="foto" src="./Pikacu.png" alt="Minha imagem" />
+            <img className="foto" src="./foto2.png" alt="Minha imagem" />
         </main>
     )
 }

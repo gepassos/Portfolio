@@ -33,3 +33,7 @@
 .descricao-projeto {
     width: 65vw;
 }
+
+.allign-center {
+    align-self: center;
+}

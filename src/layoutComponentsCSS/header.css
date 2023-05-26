@@ -4,6 +4,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    gap: 20px;
     background-color: darkslategrey;
     overflow: hidden;
     box-shadow: 1px 2px 1px #20bdbd;
@@ -12,7 +13,6 @@
 .header a {
     text-decoration: none;
     color: rgb(241, 235, 235);
-    margin: 10px;
 
 }
 
@@ -22,14 +22,11 @@
     text-decoration: underline;
 }
 
-.imagem {
-    display: flex;
-    margin-left: 25px;
-    width: 2rem;
-    height: 2rem;
-    flex-grow: 1;
-    padding-right: 20px;
+.servicos {
+    font-size: 1.2rem;
+    margin-right: 3rem;
 }
+
 
 .mensagem-header {
 
@@ -43,20 +40,14 @@
     display: flex;
     max-width: 40px;
     max-height: 40px;
-    font-size: 1rem;
-    padding-left: 10px;
+    font-size: 1.2rem;
     margin-right: 10px;
 }
 
-.servicos {
-    padding-left: 10px;
-    font-size: 1rem;
-    margin-right: 10px;
-}
 
-.portfolio {
-    font-size: 1rem;
-    padding-right: 20px;
+.projetos-header {
+    font-size: 1.2rem;
+
 
 }
 
@@ -73,15 +64,15 @@
     }
 
     .home {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .projetos-header {
+        font-size: 0.8rem;
     }
 
     .servicos {
-        font-size: 0.5rem;
-    }
-
-    .portfolio-header {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
 }
